@@ -1,7 +1,12 @@
-import React from "react";
+import NoteForm from "./NoteForm";
 
 const NewNote = () => {
-  return <div>NewNote</div>;
+  return (
+    <>
+      <h1 className='mb-4'>NewNote</h1>
+      <NoteForm />
+    </>
+  );
 };
 
 export default NewNote;
